@@ -1,6 +1,8 @@
 package cn.nn;
 
+import cn.nn.dao.LessonDao;
 import cn.nn.dao.UserDao;
+import cn.nn.domain.LessonType;
 import cn.nn.domain.User;
 import cn.nn.service.UserService;
 import org.junit.Test;
@@ -25,10 +27,22 @@ public class DaoTest {
 
     @Autowired
     UserDao userDao;
+    @Autowired
+    LessonDao lessonDao;
 
     @Test
     public void test1(){
         List<User> all = userDao.findAll();
         System.out.println(all);
+    }
+
+    @Test
+    public void testFindLesson(){
+        List<LessonType> byLesson = lessonDao.findByLesson("2");
+        for (LessonType lessonType : byLesson) {
+            System.out.println(lessonType.getName());
+        }
+
+
     }
 }

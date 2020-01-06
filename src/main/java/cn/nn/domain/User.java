@@ -9,7 +9,6 @@ import java.io.Serializable;
 
 @Data
 @ToString
-
 public class User implements Serializable {
   private Integer id;
   private Integer age;

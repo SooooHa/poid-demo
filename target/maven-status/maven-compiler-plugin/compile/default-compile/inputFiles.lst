@@ -1,8 +1,11 @@
 D:\Timber\Project\poiddemo2\src\main\java\cn\nn\controller\UserController.java
 D:\Timber\Project\poiddemo2\src\main\java\cn\nn\domain\User.java
+D:\Timber\Project\poiddemo2\src\main\java\cn\nn\domain\LessonType.java
 D:\Timber\Project\poiddemo2\src\main\java\cn\nn\Poiddemo2Application.java
 D:\Timber\Project\poiddemo2\src\main\java\cn\nn\service\UserService.java
+D:\Timber\Project\poiddemo2\src\main\java\cn\nn\domain\Lesson.java
 D:\Timber\Project\poiddemo2\src\main\java\cn\nn\domain\Student.java
 D:\Timber\Project\poiddemo2\src\main\java\cn\nn\service\StudentExportService.java
 D:\Timber\Project\poiddemo2\src\main\java\cn\nn\controller\StudentExportController.java
 D:\Timber\Project\poiddemo2\src\main\java\cn\nn\dao\UserDao.java
+D:\Timber\Project\poiddemo2\src\main\java\cn\nn\dao\LessonDao.java
